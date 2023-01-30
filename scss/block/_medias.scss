@@ -1,0 +1,18 @@
+@media screen and (max-width:390px) {
+    :root {
+        --border: 1px solid;
+    }
+
+    body {
+        width: 390px;
+    }
+
+    .header{
+        width: 390px;
+        // border: var(--border);
+
+        .header__li a{
+            display: none;
+        }
+    }
+}
